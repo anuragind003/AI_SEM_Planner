@@ -1,0 +1,29 @@
+# ------------------------------------------------------------------
+# SEM PLAN GENERATOR CONFIGURATION
+# ------------------------------------------------------------------
+
+# Enter the full URL of the brand's primary website.
+brand_url: "https://www.cubehq.ai"
+
+# List one or more key competitor websites.
+competitor_urls:
+  - "https://www.anaplan.com/"
+  - "https://www.pigment.com/"
+  - "https://www.workday.com/en-us/products/planning.html"
+
+# List the cities, states, or countries you are targeting.
+service_locations:
+  - "United States"
+  - "United Kingdom"
+  - "Canada"
+
+# Define the monthly advertising budget for each campaign type.
+ad_budgets:
+  search_ads_budget: 5000
+  shopping_ads_budget: 3000
+  pmax_ads_budget: 7000
+
+# Define project-level settings.
+project_settings:
+  assumed_conversion_rate: 0.02 # Represents 2%
+  min_search_volume_threshold: 500
